@@ -35589,8 +35589,29 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-image-1 {
     margin-left: auto;
   }
-}
 
+  .u-header .u-menu-1 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    width: 86px;
+    height: 57px;
+    margin-top: 6px;
+    margin-left: 16px;
+  }
+
+  .u-header .u-menu-1 {
+    width: auto;
+    margin-top: -44px;
+    margin-left: -40px;
+  }
+
+  .u-header .u-social-icons-1 {
+    margin-bottom: 60px;
+  }
+}
  .u-footer {
   background-image: none;
 }
