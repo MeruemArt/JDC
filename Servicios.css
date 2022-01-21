@@ -23,7 +23,12 @@
   text-transform: uppercase;
   font-weight: 700;
   border-style: none;
-  margin: 40px 20px 60px;
+  margin: 29px auto 60px 20px;
+  padding: 0 34px 1px 33px;
+}
+
+.u-section-1 .u-icon-1 {
+  font-size: 2em;
 }
 
 @media (max-width: 1199px) {
@@ -32,10 +37,6 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-right: 0;
-  }
-
-  .u-section-1 .u-btn-1 {
     margin-right: 0;
   }
 }
@@ -57,7 +58,9 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin: 8px auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: auto;
   }
 }
 
